@@ -23,7 +23,7 @@ $(PIP):
 	virtualenv $(PYVE)
 
 $(TOX): $(PIP)
-	$(PIP) install tox==1.9
+	$(PIP) install tox==2.3
 
 
 ifdef TOXENV
